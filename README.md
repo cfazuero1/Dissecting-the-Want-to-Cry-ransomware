@@ -1,3 +1,5 @@
+**無念無想 - Munen Musou - No assumptions, no preconceptions
+
 **1\. Executive Summary**
 
 This report is commisioned to have a deep understading of the WantToCry ransomware attack exploits misconfigured or exposed SMB (Server Message Block) services to gain unauthorized access to systems that took place in Log(N) Pacific between **4 March 2026 and 5 March 2026**, the Windows virtual machine **vm-final-lab-wo** experienced a multi-stage cyber intrusion involving unauthorized network authentication, lateral movement through Windows network services, remote command execution, and ransomware deployment. The investigation identified that the attacker initially gained access through **NTLM network authentication**, which allowed the adversary to authenticate remotely without performing an interactive login. This authentication originated from the external IP address **107.140.235.185** and was recorded in the Windows Security logs as **Event ID 4624 (Logon Type 3)**.
