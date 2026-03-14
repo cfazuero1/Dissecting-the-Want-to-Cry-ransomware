@@ -39,8 +39,9 @@ Together, these tools enabled a comprehensive reconstruction of the attack lifec
 **4\. Security Log Analysis**
 
 Log analysis performed using **Hayabusa** identified multiple alerts indicating suspicious remote activity and authentication anomalies.
-![Hayabusa results](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/result-hayabusa.png)
 ![Hayabusa command](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/hayabusa%20command.png)
+![Hayabusa results](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/result-hayabusa.png)
+
 Key detections included:
 
 - External Remote SMB Logon from Public IP
