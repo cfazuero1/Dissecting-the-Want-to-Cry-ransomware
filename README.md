@@ -101,6 +101,10 @@ During the investigation, SMB operational logs revealed communication with anoth
 
 Evidence suggests that the attacker used SMB connections to interact with this system and perform activities such as software installation and system configuration changes.
 
+Acording to "Exposed SMB: The Hidden Risk Behind ‘WantToCry’ Ransomware Attacks" Written by Umar Khan A, after obtaining access, they enumerate shared drives and network resources to identify valuable data repositories. The ransomware payload is then deployed, encrypting files across accessible systems and network shares while leaving a ransom note demanding payment for decryption. This type of attack highlights how exposed network services and weak credentials can enable attackers to move laterally within a network and rapidly compromise critical data.
+![WantToCry ransomware attack diagram](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/diagram_rasomware.png)
+Reference: https://www.seqrite.com/blog/wanttocry-ransomware-smb-vulnerability/
+
 SMB-based lateral movement is a common technique used by attackers after obtaining valid credentials. Once authenticated, attackers can access administrative shares and execute commands on remote systems.
 
 The interaction with **WIN-IGJLHARSET8** indicates that the attacker attempted to **expand their presence within the network** rather than remaining confined to a single host.
