@@ -187,6 +187,7 @@ i_want_to_cry.txt
 These indicators should be used to update security monitoring rules and threat detection systems.
 
 ![WannaCry ransom message](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/what-to-cry-message.png)
+![WannaCry file hash verification](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/file-hash.png)
 
 **13\. Forensic Attack Timeline**
 
