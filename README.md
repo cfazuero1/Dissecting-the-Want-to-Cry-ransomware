@@ -38,6 +38,7 @@ Together, these tools enabled a comprehensive reconstruction of the attack lifec
 **4\. Security Log Analysis**
 
 Log analysis performed using **Hayabusa** identified multiple alerts indicating suspicious remote activity and authentication anomalies.
+![Want-to-Cry hash](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/want-to-cry-hash.png)
 
 Key detections included:
 
