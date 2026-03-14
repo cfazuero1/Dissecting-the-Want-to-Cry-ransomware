@@ -64,6 +64,9 @@ Key detections included:
 
 These alerts indicate that the compromised system experienced **multiple remote authentication attempts from external IP addresses** and that attackers attempted to access network services such as SMB and RDP.
 
+Logs in Microsoft Sentinel shows modification to files.
+![Microsoft Sentinel logs](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/sentinel-logs.png)
+
 The analysis also revealed a large volume of informational events including **NTLM authentication activity (over 11,000 events)**. This volume suggests that network authentication mechanisms were heavily used during the attack and supports the hypothesis that the attacker relied on **credential reuse or NTLM-based authentication techniques** rather than interactive login.
 
 Additional detections included **credential manager enumeration and local account discovery**, which are common reconnaissance activities performed by attackers after gaining initial access.
