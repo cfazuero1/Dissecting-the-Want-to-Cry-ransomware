@@ -60,7 +60,7 @@ Additional detections included **credential manager enumeration and local accoun
 **5\. Initial NTLM Network Authentication**
 
 The earliest confirmed suspicious activity appears in the Windows Security logs as **Event ID 4624**, indicating successful authentication.
-
+![NTLM authentication diagram](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/NTML.png)
 Key attributes include:
 
 Event ID: 4624  
