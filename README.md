@@ -1,4 +1,4 @@
-**無念無想 - Munen Musou - No assumptions, no preconceptions
+**無念無想 - Munen Musou - No assumptions, no preconceptions**
 
 **1\. Executive Summary**
 
