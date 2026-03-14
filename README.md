@@ -11,7 +11,7 @@ Subsequent telemetry shows that the attacker executed administrative utilities i
 The final stage of the attack involved **ransomware deployment**, which encrypted files using the extension **.want_to_cry** and generated a ransom note titled **i_want_to_cry.txt**. These artifacts are associated with **WantToCry/WannaCry-style ransomware variants**, indicating that the attacker's ultimate objective was data encryption and financial extortion.
 
 Although the authentication behavior is consistent with techniques such as **NTLM relay or credential reuse**, the investigation did not uncover definitive artifacts proving relay activity. Nevertheless, the collected evidence clearly demonstrates **unauthorized network authentication, lateral movement, command execution with elevated privileges, and ransomware encryption activity**.
-
+![Attack flow diagram](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/a_flowchart_titled_attack_flow_diagram_illustrat.png)
 **2\. Investigation Scope**
 
 The investigation focused on the compromised Windows system **vm-final-lab-wo**, which operates as a virtual machine in an Azure environment. The analysis examined system activity occurring between **4 March 2026 and 5 March 2026**, beginning with the earliest suspicious authentication events and concluding with the ransomware encryption stage.
