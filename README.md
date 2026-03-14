@@ -136,6 +136,8 @@ System logs show that the **OpenSSH service started on 5 March 2026 at 14:30:50*
 
 Once the service became visible externally, automated scanning tools began attempting authentication against the server. This behavior is common when SSH services are exposed publicly, as automated bots continuously scan for weak credentials.
 
+![SSH bots activity](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/ssh-bots.png)
+
 The timing of these events indicates that SSH scanning occurred **after the initial compromise**, confirming that SSH brute-force attempts were not the original entry vector.
 
 **10\. Command Execution**
