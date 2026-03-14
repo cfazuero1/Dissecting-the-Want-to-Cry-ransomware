@@ -1,6 +1,6 @@
 **1\. Executive Summary**
 
-Between **4 March 2026 and 5 March 2026**, the Windows virtual machine **vm-final-lab-wo** experienced a multi-stage cyber intrusion involving unauthorized network authentication, lateral movement through Windows network services, remote command execution, and ransomware deployment. The investigation identified that the attacker initially gained access through **NTLM network authentication**, which allowed the adversary to authenticate remotely without performing an interactive login. This authentication originated from the external IP address **107.140.235.185** and was recorded in the Windows Security logs as **Event ID 4624 (Logon Type 3)**.
+This report is commisioned to have a deep understading of the WantToCry ransomware attack exploits misconfigured or exposed SMB (Server Message Block) services to gain unauthorized access to systems that took place in Log(N) Pacific between **4 March 2026 and 5 March 2026**, the Windows virtual machine **vm-final-lab-wo** experienced a multi-stage cyber intrusion involving unauthorized network authentication, lateral movement through Windows network services, remote command execution, and ransomware deployment. The investigation identified that the attacker initially gained access through **NTLM network authentication**, which allowed the adversary to authenticate remotely without performing an interactive login. This authentication originated from the external IP address **107.140.235.185** and was recorded in the Windows Security logs as **Event ID 4624 (Logon Type 3)**.
 
 Logon Type 3 indicates network authentication performed through services such as **SMB, RPC, WinRM, or WMI**. Because NTLM authentication allows credentials or authentication tokens to be reused across network services, the attacker did not need to know the user's password or actively log into the workstation referenced in the logs (**LAPTOP-U2VMN6LD**). The workstation listed in the event log therefore represents the origin of the authentication token rather than proof that the device was connected at the time of the attack.
 
@@ -69,7 +69,9 @@ Additional detections included **credential manager enumeration and local accoun
 **5\. Initial NTLM Network Authentication**
 
 The earliest confirmed suspicious activity appears in the Windows Security logs as **Event ID 4624**, indicating successful authentication.
+
 ![NTLM authentication diagram](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/NTML.png)
+
 Key attributes include:
 
 Event ID: 4624  
