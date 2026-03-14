@@ -42,6 +42,15 @@ Log analysis performed using **Hayabusa** identified multiple alerts indicating 
 ![Hayabusa command](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/hayabusa%20command.png)
 ![Hayabusa results](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/result-hayabusa.png)
 
+### Windows Security Timeline
+[timeline_security.csv](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/timeline_security.csv)
+
+### SMB Timeline Events
+[smb-timeline-events-results.csv](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/smb-timeline-events-results.csv)
+
+### SSH Timeline for Timesketch
+[timeline_ssh_for_timesketch.csv](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/timeline_ssh_for_timesketch.csv)
+
 Key detections included:
 
 - External Remote SMB Logon from Public IP
