@@ -28,6 +28,7 @@ Several forensic and security monitoring tools were used during the investigatio
 - Timesketch - forensic timeline reconstruction
 - Microsoft Defender for Endpoint - endpoint telemetry analysis
 - Microsoft Sentinel - security event correlation and querying
+- Virus Total - Check for Ips and files.
 
 Hayabusa was used to parse the Windows event logs and detect suspicious authentication and process activity. Timesketch enabled investigators to visualize events chronologically, allowing them to identify patterns and correlations between authentication events, command execution, and ransomware deployment.
 
@@ -38,7 +39,6 @@ Together, these tools enabled a comprehensive reconstruction of the attack lifec
 **4\. Security Log Analysis**
 
 Log analysis performed using **Hayabusa** identified multiple alerts indicating suspicious remote activity and authentication anomalies.
-![Want-to-Cry hash](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/want-to-cry-hash.png)
 ![Hayabusa results](https://raw.githubusercontent.com/cfazuero1/Dissecting-the-Want-to-Cry-ransomware/main/result-hayabusa.png)
 Key detections included:
 
